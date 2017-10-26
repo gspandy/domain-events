@@ -16,6 +16,7 @@
         <module>domain-events-listener</module>
         <module>domain-events-subject</module>
         <module>domain-events-azure</module>
+        <module>domain-events-sample</module>
     </modules>
 
     <licenses>
@@ -68,6 +69,11 @@
             <dependency>
                 <groupId>de.audibene.core</groupId>
                 <artifactId>domain-events-listener</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.audibene.core</groupId>
+                <artifactId>domain-events-azure</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>

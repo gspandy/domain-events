@@ -1,0 +1,9 @@
+azure.servicebus:
+  connection-string: Endpoint=myEndpoint;SharedAccessKeyName=mySharedAccessKeyName;SharedAccessKey=mySharedAccessKey
+  topic-name: myTopic
+  subscription-name: mySubscription
+  subjects:
+    defaults:
+      maximum-connections: 10
+      maximum-processors: 10
+

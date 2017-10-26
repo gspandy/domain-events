@@ -3,5 +3,6 @@
 !domain-events-subject
 !domain-events-listener
 !domain-events-azure
+!domain-events-sample
 !pom.xml
 !README.md
