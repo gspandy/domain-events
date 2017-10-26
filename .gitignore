@@ -2,5 +2,6 @@
 !.gitignore
 !domain-events-subject
 !domain-events-listener
+!domain-events-azure
 !pom.xml
 !README.md
