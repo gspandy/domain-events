@@ -1,5 +1,6 @@
 /*
 !.gitignore
 !domain-events-subject
+!domain-events-listener
 !pom.xml
 !README.md

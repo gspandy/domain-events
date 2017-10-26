@@ -14,6 +14,7 @@
 
     <modules>
         <module>domain-events-subject</module>
+        <module>domain-events-listener</module>
     </modules>
 
     <licenses>
@@ -49,6 +50,12 @@
                 <artifactId>jsr305</artifactId>
                 <version>3.0.2</version>
                 <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>de.audibene.core</groupId>
+                <artifactId>domain-events-subject</artifactId>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
